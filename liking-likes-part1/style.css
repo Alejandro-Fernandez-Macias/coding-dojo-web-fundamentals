@@ -1,0 +1,36 @@
+.container {
+    height: 150px;
+    width: 600px;
+    margin: 0 auto;
+    border: 5px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.row-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2 {
+    margin-right: 70px;
+}
+
+button {
+    height: 40px;
+    width: 90px;
+    font-size: larger;
+    box-shadow: 5px 5px black;
+    background-color: gold;
+    margin-left: -50px;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: center;
+    margin: -20px;
+    margin-right: 10px;
+}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="nav_bar">
+            <h1 id="title_header">DojoWeather</h1>
+            <div>
+                <ul>
+                    <li><a onclick="changeCity()" href="#">Burbank</a></li>
+                    <li><a onclick="changeCity()"href="#">Chicago</a></li>
+                    <li><a onclick="changeCity()" href="#">Dallas</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="city_header">
+            <h1>San Jose</h1>
+            <div id="temp_converter">
+                <p>show temperature in </p>
+                <select onchange="changeTemp()"  name="degrees" id="temp">
+                    <option value="celsius">&#176C</option>
+                    <option onchange="changeTemp()" value="farenheit">&#176F</option>
+                </select>
+            </div>
+        </div>
+        <div id="weather_cards">
+            <div class="cards">
+                <div class="card_info">
+                    <h2>Today</h2>
+                    <img class="weather_images" src="assets/some_rain.png" alt="rain_image">
+                    <p>some rain</p>
+                    <div class="degrees">
+                        <p class="high_temp"><span id="high_temp1">24</span>&#176</p>
+                        <p class="low_temp"><span id="low_temp1">18</span>&#176</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card_info">
+                    <h2>Tomorrow</h2>
+                    <img class="weather_images" src="assets/some_sun.png" alt="sun_image">
+                    <p>some sun</p>
+                    <div class="degrees">
+                        <p class="high_temp"><span id="high_temp2">27</span>&#176</p>
+                        <p class="low_temp"><span id="low_temp2">19</span>&#176</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card_info">
+                    <h2>Friday</h2>
+                    <img class="weather_images" src="assets/some_clouds.png" alt="clouds_image">
+                    <p>some clouds</p>
+                    <div class="degrees">
+                        <p class="high_temp"><span id="high_temp3">21</span>&#176</p>
+                        <p class="low_temp"><span id="low_temp3">16</span>&#176</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card_info">
+                    <h2>Saturday</h2>
+                    <img class="weather_images" src="assets/some_sun.png" alt="sun_image">
+                    <p>some sun</p>
+                    <div class="degrees">
+                        <p class="high_temp"><span id="high_temp4">26</span>&#176</p>
+                        <p class="low_temp"><span id="low_temp4">21</span>&#176</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cookie_div">
+            <img id="cookie_image" src="assets/cookie.png" alt="cookie_image">
+            <div id="cookie_text">
+                <h2>Stop! Cookie Time</h2>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a id="read_more" href="#">Read more...<a><p>
+            </div>
+            <button id="accept_btn" onclick="acceptCookies()">I Accept</button>
+        </div>
+    </div>
+    <script src="scrpit.js"></script>
+</body>
+
+</html>

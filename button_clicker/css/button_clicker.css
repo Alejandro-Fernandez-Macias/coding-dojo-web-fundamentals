@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder
+}
+
+.container {
+    background-color: silver;
+    margin: 0 auto;
+    height: 100px;
+    width: 1100px;
+}
+
+.nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+#nav_title {
+    padding-left: 50px;
+    
+}
+
+#search_bar {
+    width: 600px;
+    height: 30px;
+    border: 3px solid black;
+    margin-left: -60px;
+}
+
+#login_btn {
+    height: 30px;
+    width: 70px;
+    margin-right: 50px;
+    background-color: blue;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 3px black;
+}
+
+.container-2 {
+    height: 1100px;
+    width: 1100px;
+    margin: 0 auto ;
+    
+}
+
+.row {
+    display: grid;
+    height: 600px;
+    width: 1100px;
+}
+
+.col-1 {
+    height: 250px;
+    width: 750px;
+    grid-area: 1 / 1 / 2;
+    border: 5px solid black;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ninja_word_1 {
+    display: flex;
+    flex-direction: column;
+    margin: -65px;
+    padding-bottom: 40px;
+}
+
+.ninja_word_2 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+a {
+    color: blue;
+}
+
+p {
+    margin: 15px 0 15px 0;
+}
+
+span {
+    font-style: italic;
+}
+
+.definition-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.like_btn  {
+    height: 40px;
+    width: 110px;
+    box-shadow: 2px 3px black;
+    background-color: gold;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+
+
+.col-2 {
+    height: 200px;
+    width: 300px;
+    margin-top: 10px;
+    grid-area: 1 / 2 / 1;
+    margin-left: 30px;
+    border: 5px solid black;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-direction: column;
+}
+
+#you_word {
+    font-weight: bolder;
+    font-style: normal;
+    font-size: larger;
+}
+
+#add_btn {
+    height: 40px;
+    width: 250px;
+    box-shadow: 2px 3px black;
+    background-color: lightgreen;
+    font-weight: bolder;
+    
+}
+
+.col-3 {
+    height: 250px;
+    width: 750px;
+    margin-top: 10px;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

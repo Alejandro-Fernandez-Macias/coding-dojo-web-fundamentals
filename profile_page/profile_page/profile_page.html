@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav_bar">
+            <h1 id="nav_title">Profile</h1>
+            <ul class="nav_links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+                <li><button>Sign Out</button></li>
+            </ul>
+        </div>
+        <div class="top_cards">
+            <div class="profile_card">
+                <h6></h6>
+                <img id="profile_image" src="images/alex-f.jpg" alt="alex_image">
+                <h1 id="profile_name">Alejandro Fernandez</h1>
+                <div class="location">
+                    <img id="map_marker" src="icons/icons/map-marker.png" alt="map_marker_image">
+                    <h2 id="city">San Francisco</h2>
+                </div>
+                <div class="profile_intro">
+                    <p>Full Stack Developer | Engineer | Problem Solver</p>
+                    <p>Master of shadows and the Internet !</p>
+                </div>
+                <div class="edit_section">
+                    <img id="gear_marker" src="icons/icons/gear.png" alt="gear_image">
+                    <a onclick="changeName()" id="edit_profile" href="#">Edit Profile</a>
+                </div>
+            </div>
+            <div class="request_card">
+                <div class="request_header">
+                    <h3><span id="request_count">2</span> Connection Requests</h3>
+                </div>
+                <div class="todd_row">
+                    <img class="profile_images" src="images/todd-s.jpg" alt="todd_image">
+                    <p>Todd E</p>
+                    <img onclick="removeRequest1()" class="icons" src="icons/icons/accept-circle.png" alt="accept_icon">
+                    <img onclick="removeRequest1()" class="icons" src="icons/icons/close-circle.png" alt="close_icon">
+                </div>
+                <div class="phil_row">
+                    <img class="profile_images" src="images/phil-s.jpg" alt="phil_image">
+                    <p>Phil K</p>
+                    <img onclick="removeRequest2()" class="icons" src="icons/icons/accept-circle.png" alt="accept_icon">
+                    <img onclick="removeRequest2()" class="icons" src="icons/icons/close-circle.png" alt="close_icon">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="lower_cards">
+                <div class="education_card">
+                    <div class="education_header">
+                        <h3>Education</h3>
+                    </div>
+                    <div class="education_info">
+                        <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                        <p>Sept 2021 - Present</p>
+                        <p>Triple black belt in Python, MERN, and C #</p>
+                    </div>
+                </div>
+                <div class="connections_card">
+                    <div class="connections_header">
+                        <h3><span id="connections">500</span> Your Connections</h3>
+                    </div>
+                    <div class="adrien_row">
+                        <img class="profile_images" src="images/adrien-s.jpg" alt="adrien_image">
+                        <p>Adrien D</p>
+                    </div>
+                    <div class="anne_row">
+                        <img class="profile_images" src="images/anne-s.jpg" alt="anne_image">
+                        <p>Anne J</p>
+                    </div>
+                    <div class="alayne_row">
+                        <img class="profile_images" src="images/alayne-s.jpg" alt="alayne_image">
+                        <p>Alayne T</p>
+                    </div>
+                    <div class="arry_row">
+                        <img class="profile_images" src="images/arry-s.jpg" alt="arry_image">
+                        <p>Arry Y</p>
+                    </div>
+                    <div class="view_row">
+                        <a id="view_link" href="#">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    height: 1000px;
+    width: 1250px;
+    margin: 0 auto;
+    font-family: Comic sans MS;
+}
+
+#nav_bar {
+    height: 100px;
+    background-color: lightskyblue ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#title_header {
+    font-size: 50px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none ;
+}
+
+a {
+    margin: 0px 40px;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+#city_header {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 5px solid black;
+}
+
+.card_info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 50px;
+    
+}
+
+.weather_images {
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px ;
+    margin-bottom: 40px;
+}
+
+#temp_converter {
+    display: flex;
+    align-items: center;
+}
+
+#temp {
+    margin: 10px;
+    height: 30px;
+}
+
+
+#weather_cards {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.degrees {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+    width: 150px;
+    
+}
+
+.high_temp {
+    color: red;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.low_temp {
+    color: blue;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.cards {
+    height: 475px;
+    width: 250px;
+    font-size: larger;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cookie_div {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+}
+
+#cookie_text {
+    margin-top: 50px;
+}
+
+#accept_btn {
+    width: 80px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: lightskyblue;
+    box-shadow: 4px 4px black;
+    font-weight: bold;
+}
+
+#cookie_image {
+    height: 100px;
+}
+
+#read_more {
+    margin: 0px;
+    font-size: large;
+    text-decoration: underline;
+    color: blue;
+}

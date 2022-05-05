@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="css/button_clicker.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav_bar">
+            <h1 id="nav_title">Dojonary</h1>
+            <input id="search_bar" type="text" placeholder="Search">
+            <button onclick="logout(this)" id="login_btn">Login</button>
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="row">
+            <div class="col-1">
+                <div class="ninja_word_1">
+                    <h1>ninja</h1>
+                    <p><span>noun</span></p>
+                    <p>Plural: <span>ninjas</span> </p>
+                    <button onclick="alert('Ninja was liked')" class="like_btn">13 Likes</button>
+                </div>
+                <div class="definition-2">
+                    <p>A particular skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Dojonary is <br> defined by <span id="you_word">YOU</span> </p>
+                <button onclick="hide(this)" id="add_btn">Add Definition</button>
+            </div>
+            <div class="col-3">
+                <div class="ninja_word_2">
+                    <h1>ninja</h1>
+                    <p><span>noun</span></p>
+                    <p>Plural: <span>ninjas</span> </p>
+                    <button  onclick="alert('Ninja was liked')" class="like_btn">37 Likes</button>
+                </div>
+                <div class="definition-2">
+                        <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus </p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
